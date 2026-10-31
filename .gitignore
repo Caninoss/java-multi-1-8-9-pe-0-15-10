@@ -1,0 +1,20 @@
+# Dados pessoais e estado gerado pelo servidor; nao publicar no repositorio
+servidor/players/
+servidor/crashdumps/
+servidor/server.log
+servidor/ops.txt
+servidor/banned-cids.txt
+servidor/banned-ips.txt
+servidor/banned-players.txt
+servidor/white-list.txt
+
+# Configuracoes locais podem conter nome, senha e portas da hospedagem
+servidor/server.properties
+servidor/genisys.yml
+
+# Copia antiga duplicada do servidor
+servidor/01510/
+
+# Dependencias e logs locais
+bridge-java-pe/node_modules/
+*.log

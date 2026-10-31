@@ -1,0 +1,20 @@
+{
+  "java": {
+    "host": "0.0.0.0",
+    "port": 25565,
+    "motd": "§bJava 1.8 §7-> §aMCPE 0.15.10",
+    "maxPlayers": 50,
+    "nameSelect": "off",
+    "maxNameLength": 128
+  },
+  "pe": {
+    "host": "127.0.0.1",
+    "port": 19132,
+    "serverType": "auto",
+    "version": "0.15.10",
+    "raknetProtocol": 7,
+    "mtu": 1400,
+    "chunkRadius": 8
+  },
+  "debug": false
+}

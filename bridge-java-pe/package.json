@@ -1,0 +1,13 @@
+{
+  "name": "java18-mcpe15-translator",
+  "version": "1.5.0",
+  "description": "Proxy that lets Minecraft Java 1.8.x clients join a Minecraft PE 0.15.10 or 0.14.3 server",
+  "main": "index.js",
+  "scripts": { "start": "node index.js", "test": "node test/e2e.js && TEST_PE_VERSION=0.14.3 node test/e2e.js && node test/e2e-nukkit.js && node test/e2e-names.js && node test/e2e-bots.js",
+    "bots": "node tools/bots.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "minecraft-protocol": "^1.68.0",
+    "prismarine-nbt": "^2.7.0"
+  }
+}
